@@ -1,7 +1,7 @@
 from customtkinter import*
 from random import randint
 window = CTk()
-window.geometry('400x400')
+window.geometry('400x400')#CTk
 def btn_position():
     x_rand = randint(0, window.winfo_width()-btn_no.winfo_width())
     y_rand = randint(0, window.winfo_height()-btn_no.winfo_height())
